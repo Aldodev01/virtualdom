@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: aliceblue;
+    font-family: Bebas Neue;
+   
+}
+
+.app{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+}
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10%;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+
+.al{
+    font-size: 4rem;
+    color: turquoise;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.600);
+    cursor: pointer;
+}
+
+.ar{
+    font-size: 4rem;
+    color: turquoise;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.card{
+    width: 300px;
+    height: 150px;
+    background-color: ghostwhite;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.600);
+    display: flex;
+    justify-self: flex-start;
+    gap: 10px
+}
+
+.card img{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.textContainer{
+    width: 200px;
+    height: auto;
+    color: black;
+
+}
+
+.cardContainer{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    gap: 40px;
+}
